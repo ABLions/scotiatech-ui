@@ -1,0 +1,48 @@
+:host ::ng-deep {
+  [pDraggable] {
+      cursor: move;
+  }
+}
+
+img{
+  width: 163px;
+}
+
+// :host ::ng-deep .p-button.p-button-danger, .p-buttonset.p-button-danger > .p-button, .p-splitbutton.p-button-danger > .p-button{
+//   color: #ffffff;
+//   background: rgb(218,52,42);
+//   border: 1px solid rgb(218,52,42);
+// }
+
+.kanban-header{
+  height: 70vh;
+  overflow: scroll;
+  h3{
+    position: relative;
+    top: -10px;
+  }
+}
+
+.todo{
+  margin: 0 0 0 22%;
+}
+
+.task{
+
+  .edit-task{
+    position: relative;
+    bottom: 64px;
+    left: 10rem;
+    margin: 0 0 0 0;
+  }
+  .delete-task{
+    position: relative;
+    bottom: 64px;
+    left: 10rem;
+    margin: 0 0 0 0;
+  }
+  .task-description{
+    margin: -50px 0 0 0;
+    height: 50px;
+  }
+}
